@@ -1,7 +1,7 @@
 <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
     <a class="navbar-brand mr-sm-1 " [routerLink]="['/home']">
-      <img  style="height:100px;width:270px" src="./assets/img/brand/tcs-color.png">
+      <img  style="height:50px;width:170px" src="./assets/img/brand/tcs-color.png">
       
     </a>
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
@@ -13,7 +13,7 @@
         <div class="row">
           <div class="col-6 collapse-brand">
             <a [routerLink]="['/home']">
-              <img src="./assets/img/brand/blue.png">
+              <img src="./assets/img/brand/tcs-color.png">
             </a>
           </div>
           <div class="col-6 collapse-close">
@@ -66,10 +66,10 @@
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <span  class="nav-link-inner--text">Products</span>
+            <a [routerLink]="['/cloud-service-heat-map']"  class="nav-link-inner--text text-white">Products</a>
           </a>
           <div class="dropdown-menu">
-            <a [routerLink]="['/assessment']" class="dropdown-item">Assessment</a>
+            <a [routerLink]="['/assessment']" class="dropdown-item">Assessment- Cloud Counsel</a>
             <a [routerLink]="['/design-and-automation']" class="dropdown-item">Design and Automation</a>
             <a [routerLink]="['/migration-factory']" class="dropdown-item">Migration Factory</a>
             <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
@@ -90,11 +90,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text align-items-left">Upcomming Events</span>
+            <span class="nav-link-inner--text align-items-left">Upcoming Events</span>
           </a>
           <div class="dropdown-menu">
             <a [routerLink]="['/events-link']" class="dropdown-item">Events Link</a>
-            <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcomming Enhancements</a>
+            <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcoming Enhancements</a>
             <!-- <a [routerLink]="['/login']" class="dropdown-item">Migration Factory</a> -->
             <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
           </div>
@@ -105,9 +105,10 @@
             <span class="nav-link-inner--text">Current Trends</span>
           </a>
           <div class="dropdown-menu">
-            <a [routerLink]="['/cloud-service-heat-map']" class="dropdown-item">Cloud Services Heat Map</a>
-            <a [routerLink]="['/latest-highlights']" class="dropdown-item">Latest Highlights</a>
-            <a [routerLink]="['/trends']" class="dropdown-item">Trends</a>
+            
+            <a href="https://azurecharts.com/heatmap" target="_blank" class="dropdown-item">Cloud Services Heat Map</a>
+            <a href="https://azurecharts.com/highlights" target="_blank" class="dropdown-item">Latest Highlights</a>
+            <a href="https://azurecharts.com/highlights/trends" target="_blank" class="dropdown-item">Trends</a>
             <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
           </div>
         </li>
@@ -150,11 +151,10 @@
           </a>
         </li> -->
         <li class="nav-item d-none d-lg-block ml-lg-4">
-          <a  href="https://azure.microsoft.com/en-us/blog/"   class="btn btn-neutral btn-icon">
-            <span class="btn-inner--icon">
-              <i class="ni ni-book-bookmark mr-2"></i>
-            </span>
-            <span class="nav-link-inner--text">Microsoft Blogs Official </span>
+          
+          <a  class="btn">
+            
+            <span style="color: rgb(253, 253, 253); font:geogia; ">Building on belief </span>
           </a>
         </li>
       </ul>

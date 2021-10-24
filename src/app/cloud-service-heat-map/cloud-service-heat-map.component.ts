@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, RouterModule, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-cloud-service-heat-map',
@@ -7,7 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CloudServiceHeatMapComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router:Router) { }
+ assessment(){
+   
+   this.router.navigate(['assessment'])
+
+ }
+ migrationfactory(){
+  this.router.navigate(['migration-factory'])
+ }
+ design(){
+  this.router.navigate(['design-and-automation'])
+ }
+
 
   ngOnInit(): void {
   }
