@@ -29,6 +29,7 @@ import { TrendsComponent } from './trends/trends.component';
 import { CaseStudyComponent } from './case-study/case-study.component';
 import { CertificationMapComponent } from './certification-map/certification-map.component';
 import { TeamsChannelComponent } from './teams-channel/teams-channel.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { TeamsChannelComponent } from './teams-channel/teams-channel.component';
     TrendsComponent,
     CaseStudyComponent,
     CertificationMapComponent,
-    TeamsChannelComponent
+    TeamsChannelComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

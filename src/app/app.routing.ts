@@ -22,7 +22,7 @@ import { SustainabilityAnalysisComponent } from './sustainability-analysis/susta
 import { TeamsChannelComponent } from './teams-channel/teams-channel.component';
 import { TrendsComponent } from './trends/trends.component';
 import { UpcommingEnhancementComponent } from './upcomming-enhancement/upcomming-enhancement.component';
-
+import { ProductComponent } from './product/product.component';
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
     { path: 'user-profile',     component: ProfileComponent },
@@ -43,6 +43,7 @@ const routes: Routes =[
     { path: 'teams-channel',          component: TeamsChannelComponent },
     { path: 'trends',             component: TrendsComponent },
     { path: 'upcomming-enhancements',             component: UpcommingEnhancementComponent },
+    { path: 'product',             component: ProductComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

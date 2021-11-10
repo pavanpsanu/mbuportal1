@@ -66,12 +66,13 @@
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <a [routerLink]="['/cloud-service-heat-map']"  class="nav-link-inner--text text-white">Products</a>
+            <a [routerLink]="['/product']"  class="nav-link-inner--text text-white">Products</a>
           </a>
           <div class="dropdown-menu">
             <a [routerLink]="['/assessment']" class="dropdown-item">Assessment- Cloud Counsel</a>
             <a [routerLink]="['/design-and-automation']" class="dropdown-item">Design and Automation</a>
             <a [routerLink]="['/migration-factory']" class="dropdown-item">Migration Factory</a>
+            <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcoming Enhancements</a>
             <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
           </div>
         </li>
@@ -90,11 +91,25 @@
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Industry</span>
+          </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/']" class="dropdown-item">BFSI</a>
+            <a [routerLink]="['/']" class="dropdown-item">MFG</a>
+            <a [routerLink]="['/']" class="dropdown-item">ERU</a>
+            <a [routerLink]="['/']" class="dropdown-item">LSHC</a>
+            <a [routerLink]="['/']" class="dropdown-item">Retail</a>
+            <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text align-items-left">Upcoming Events</span>
           </a>
           <div class="dropdown-menu">
             <a [routerLink]="['/events-link']" class="dropdown-item">Events Link</a>
-            <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcoming Enhancements</a>
+            
             <!-- <a [routerLink]="['/login']" class="dropdown-item">Migration Factory</a> -->
             <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
           </div>
@@ -123,6 +138,13 @@
             <a [routerLink]="['/teams-channel']" class="dropdown-item">Teams Channel</a>
             <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
           </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Newsletter</span>
+          </a>
+          
         </li>
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
