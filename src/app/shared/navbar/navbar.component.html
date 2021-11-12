@@ -1,6 +1,6 @@
 <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
-    <a class="navbar-brand mr-sm-1 " [routerLink]="['/home']">
+    <a class="navbar-brand mr-sm-0 " [routerLink]="['/home']">
       <img  style="height:50px;width:170px" src="./assets/img/brand/tcs-color.png">
       
     </a>
@@ -130,6 +130,18 @@
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Sandbox Dashboard</span>
+          </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['DoanddontsComponent']" class="dropdown-item">Do's and Donts<span class="badge bg-secondary">New</span></a>
+            <a [routerLink]="['ActiveinactivesubscriptionsComponent']" class="dropdown-item">Active/Inactive Subscriptions</a>
+            <a [routerLink]="['AcceleratorsipsComponent']" class="dropdown-item">Accelerators/IPs</a>
+            <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Resources & Connects</span>
           </a>
           <div class="dropdown-menu">
@@ -172,11 +184,11 @@
             <span class="nav-link-inner--text d-lg-none">Github</span>
           </a>
         </li> -->
-        <li class="nav-item d-none d-lg-block ml-lg-4">
+        <li class="nav-item d-none d-lg-block ml-sm-0">
           
           <a  class="btn">
             
-            <span style="color: rgb(253, 253, 253); font:geogia; ">Building on belief </span>
+            <span style="color: rgb(253, 253, 253); font:geogia; ">Building on<br> belief </span>
           </a>
         </li>
       </ul>

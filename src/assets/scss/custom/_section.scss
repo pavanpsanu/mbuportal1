@@ -152,7 +152,31 @@
     }
 
     .shape-fifthcolumn {
-        background: linear-gradient(150deg, #01d6fc  15%,#f7b867  70%, #f7b867 94%);
+        background: linear-gradient(150deg, #001510  15%,#00bf8f  70%, #00bf8f 94%);
+
+         :nth-child(1) {
+            background: shapes-default-color("span-1-bg");
+        }
+
+         :nth-child(2) {
+            background: shapes-default-color("span-2-bg");
+        }
+
+         :nth-child(3) {
+            background: shapes-default-color("span-3-bg");
+        }
+
+         :nth-child(4) {
+            background: shapes-default-color("span-4-bg");
+        }
+
+         :nth-child(5) {
+            background: shapes-default-color("span-5-bg");
+        }
+    }
+
+    .shape-sandbox {
+        background: linear-gradient(150deg,#0cd599   15%,#007991  70%,#007991  94%);
 
          :nth-child(1) {
             background: shapes-default-color("span-1-bg");

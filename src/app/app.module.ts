@@ -30,6 +30,9 @@ import { CaseStudyComponent } from './case-study/case-study.component';
 import { CertificationMapComponent } from './certification-map/certification-map.component';
 import { TeamsChannelComponent } from './teams-channel/teams-channel.component';
 import { ProductComponent } from './product/product.component';
+import { DoanddontsComponent } from './doanddonts/doanddonts.component';
+import { ActiveinactivesubscriptionsComponent } from './activeinactivesubscriptions/activeinactivesubscriptions.component';
+import { AcceleratorsipsComponent } from './acceleratorsips/acceleratorsips.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +57,10 @@ import { ProductComponent } from './product/product.component';
     CaseStudyComponent,
     CertificationMapComponent,
     TeamsChannelComponent,
-    ProductComponent
+    ProductComponent,
+    DoanddontsComponent,
+    ActiveinactivesubscriptionsComponent,
+    AcceleratorsipsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,18 @@
+.redclr{
+    color: red;
+}
+
+.redbgnd{
+    background-color:red;
+}
+/* .crimson-text{
+    color:crimson;
+} */
+
+.space{
+    content: "|\00a0\00a0";
+}
+
+/* .marginincrease{
+    margin-left: 300px;
+} */
