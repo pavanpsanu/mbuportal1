@@ -26,6 +26,7 @@ import { ProductComponent } from './product/product.component';
 import { DoanddontsComponent } from './doanddonts/doanddonts.component';
 import { AcceleratorsipsComponent } from './acceleratorsips/acceleratorsips.component';
 import { ActiveinactivesubscriptionsComponent } from './activeinactivesubscriptions/activeinactivesubscriptions.component';
+import {ContactusComponent} from './contactus/contactus.component';
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
     { path: 'user-profile',     component: ProfileComponent },
@@ -50,6 +51,8 @@ const routes: Routes =[
     { path: 'DoanddontsComponent',             component: DoanddontsComponent},
     { path: 'AcceleratorsipsComponent',             component: AcceleratorsipsComponent},
     { path: 'ActiveinactivesubscriptionsComponent',             component: ActiveinactivesubscriptionsComponent},
+    { path: 'contactus', component:ContactusComponent },
+
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

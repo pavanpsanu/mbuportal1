@@ -33,6 +33,7 @@ import { ProductComponent } from './product/product.component';
 import { DoanddontsComponent } from './doanddonts/doanddonts.component';
 import { ActiveinactivesubscriptionsComponent } from './activeinactivesubscriptions/activeinactivesubscriptions.component';
 import { AcceleratorsipsComponent } from './acceleratorsips/acceleratorsips.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { AcceleratorsipsComponent } from './acceleratorsips/acceleratorsips.comp
     ProductComponent,
     DoanddontsComponent,
     ActiveinactivesubscriptionsComponent,
-    AcceleratorsipsComponent
+    AcceleratorsipsComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
