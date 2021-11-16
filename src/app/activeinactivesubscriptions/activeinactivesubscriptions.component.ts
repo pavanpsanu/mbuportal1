@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as XLSX from 'ts-xlsx';
 
 @Component({
   selector: 'app-activeinactivesubscriptions',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./activeinactivesubscriptions.component.css']
 })
 export class ActiveinactivesubscriptionsComponent implements OnInit {
+  
 
   constructor() { }
 
