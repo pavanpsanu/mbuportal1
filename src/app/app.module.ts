@@ -34,6 +34,7 @@ import { DoanddontsComponent } from './doanddonts/doanddonts.component';
 import { ActiveinactivesubscriptionsComponent } from './activeinactivesubscriptions/activeinactivesubscriptions.component';
 import { AcceleratorsipsComponent } from './acceleratorsips/acceleratorsips.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { NgxDocViewerModule } from 'ngx-doc-viewer';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     ActiveinactivesubscriptionsComponent,
     AcceleratorsipsComponent,
     ContactusComponent
+   
   ],
   imports: [
     BrowserModule,
@@ -70,7 +72,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    NgxDocViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

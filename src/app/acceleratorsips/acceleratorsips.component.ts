@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acceleratorsips.component.css']
 })
 export class AcceleratorsipsComponent implements OnInit {
-
+bloburl="https://viewdatainexcel.blob.core.windows.net/testcontainer/Accelerator.xlsx"
   constructor() { }
 
   ngOnInit(): void {
