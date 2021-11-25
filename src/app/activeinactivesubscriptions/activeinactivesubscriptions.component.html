@@ -23,11 +23,11 @@
         <div class="container py-lg-md d-flex">
           <div class="col px-0">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-15">
                 <h1 class="display-3  text-white">Active / Inactive Subscriptions
                   <!-- <span>completed with examples</span> -->
                 </h1>
-              <p class="lead  text-white">Active / Inactive Subscriptions</p>
+              
 
               
               
@@ -46,7 +46,26 @@
         </div>
       </section>
 
-
+      <section class="section">
+        <div class="container" style="margin-top: 1px;">
+          <div class="card card-profile shadow mt--300" style="width:95%;">
+           
+            <div style="display: block;">
+              <canvas baseChart 
+                [data]="pieChartData" 
+                [labels]="pieChartLabels" 
+                [chartType]="pieChartType"
+                [options]="pieChartOptions"
+                [plugins]="pieChartPlugins"
+                [legend]="pieChartLegend">
+              </canvas>
+            </div>
+                
+              
+            
+          </div>
+        </div>
+      </section>
     
   
 

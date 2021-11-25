@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
+
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 
@@ -35,11 +36,17 @@ import { ActiveinactivesubscriptionsComponent } from './activeinactivesubscripti
 import { AcceleratorsipsComponent } from './acceleratorsips/acceleratorsips.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { NgxDocViewerModule } from 'ngx-doc-viewer';
+import { ChartsModule } from 'ng2-charts';
+import { FaqsComponent } from './faqs/faqs.component';
+// import { NgbdAccordionPreventchange } from './accordion-preventchange';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
+    // NgbdAccordionPreventchange,
     LandingComponent,
     ProfileComponent,
     NavbarComponent,
@@ -63,7 +70,9 @@ import { NgxDocViewerModule } from 'ngx-doc-viewer';
     DoanddontsComponent,
     ActiveinactivesubscriptionsComponent,
     AcceleratorsipsComponent,
-    ContactusComponent
+    ContactusComponent,
+    FaqsComponent,
+    
    
   ],
   imports: [
@@ -73,7 +82,13 @@ import { NgxDocViewerModule } from 'ngx-doc-viewer';
     RouterModule,
     AppRoutingModule,
     HomeModule,
-    NgxDocViewerModule
+    NgxDocViewerModule,
+    ChartsModule
+
+    
+  ],
+  exports: [
+    // NgbdAccordionPreventchange
   ],
   providers: [],
   bootstrap: [AppComponent]
