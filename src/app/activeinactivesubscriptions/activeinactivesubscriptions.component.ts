@@ -13,8 +13,8 @@ export class ActiveinactivesubscriptionsComponent implements OnInit {
   public pieChartOptions: ChartOptions = {
     responsive: true,
   };
-  public pieChartLabels: Label[] = ['ACTIVE' , 'INACTIVE' , 'OTHER'];
-  public pieChartData: SingleDataSet = [300, 600, 100];
+  public pieChartLabels: Label[] = ['ACTIVE' , 'INACTIVE' ];
+  public pieChartData: SingleDataSet = [0, 3];
   public pieChartType: ChartType = 'pie';
   public pieChartLegend = true;
   public pieChartPlugins = [];
