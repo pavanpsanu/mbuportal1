@@ -10,40 +10,55 @@ export class AcceleratorsipsComponent implements OnInit {
 
 
 jsonvaluesofexcel= {
-  "Sheet1": [
-    {
-      "Slno": 1,
-      "SubscriptioName": "TCS CUBO Marketplace_API Management",
-      "AcceleratorIp": "TCS-CUBO",
-      "Description": "Online marketplace for partners to publish their product APIs",
-      "Createdon": "07/29/20",
-      "Comments": "150+ Partner web pages are already published in prod"
-    },
-    {
-      "Slno": 2,
-      "SubscriptioName": "DevSecOps PoC mbu_dataai",
-      "AcceleratorIp": "DevSec Ops Accelarator",
-      "Description": "Hosting web application, containerized web application in Azure App Service",
-      "Createdon": "02/18/21",
-      "Comments": "Accelarates the deployment of diff azure web apps"
-    },
-    {
-      "Slno": 3,
-      "SubscriptioName": "Intelligent_data_services_poc ABN Amro_Smart Document",
-      "AcceleratorIp": "AI Data Service",
-      "Description": "Data AI intelligent data services Document Automation with Intelligence",
-      "Createdon": "11/24/20",
-      "Comments": "NA"
-    },
-    {
-      "Slno": 4,
-      "SubscriptioName": "Capturing System",
-      "AcceleratorIp": "DAWIN",
-      "Description": "Smart Document Capturing System",
-      "Createdon": "10/01/20",
-      "Comments": "NA"
-    }
-  ]
+	"Sheet1": [{
+			"Slno": 1,
+			"ISU": "CTO",
+			"SubscriptioName": "TCS CUBO Marketplace_API Management",
+			"AcceleratorIp": "TCS-CUBO (IP)",
+			"AccelaratorIPdesc": "Online marketplace for partners to publish their product APIs",
+			"Createdon": "07/29/20"
+		},
+		{
+			"Slno": 2,
+			"ISU": "CSI",
+			"SubscriptioName": "DevSecOps PoC",
+			"AcceleratorIp": "DevSec Ops Accelarator",
+			"AccelaratorIPdesc": "Hosting web application, containerized web application in Azure App Service",
+			"Createdon": "02/18/21"
+		},
+		{
+			"Slno": 3,
+			"ISU": "MBU",
+			"SubscriptioName": "mbu_dataai-intelligent_data_services_poc",
+			"AcceleratorIp": "AI Data Service(IP)",
+			"AccelaratorIPdesc": "DataAI intelligent data services",
+			"Createdon": "11/24/20"
+		},
+		{
+			"Slno": 4,
+			"ISU": "MBU",
+			"SubscriptioName": "ABN Amro_Smart Document Capturing System",
+			"AcceleratorIp": "DAWIN(IP)",
+			"AccelaratorIPdesc": "Document Automation With Intelligence : - Smart Document Capturing System",
+			"Createdon": "10/01/20"
+		},
+		{
+			"Slno": 5,
+			"ISU": "CTO",
+			"SubscriptioName": "TCS CUBO Marketplace_API Management",
+			"AcceleratorIp": "TCS-CUBO (Accelarator)",
+			"AccelaratorIPdesc": "Online marketplace for partners to publish their Product APIs",
+			"Createdon": "07/29/20"
+		},
+		{
+			"Slno": 6,
+			"ISU": "MBU",
+			"SubscriptioName": "mbu_dataai-intelligent_data_services_poc",
+			"AcceleratorIp": "AI Data Service(Accelarator)",
+			"AccelaratorIPdesc": "DataAI intelligent data services",
+			"Createdon": "11/24/20"
+		}
+	]
 }
   constructor() { }
 
