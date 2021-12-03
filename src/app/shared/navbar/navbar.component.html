@@ -69,23 +69,31 @@
             <a [routerLink]="['/product']"  class="nav-link-inner--text text-white">Products</a>
           </a>
           <div class="dropdown-menu" >
-            <li  >
+            <li class="nav-item dropdown" >
               <a class="dropdown-item" data-toggle="dropdown" role="button" style="padding-left: 0px; padding:0px">
                 
-                <span class="dropdown-item" style="top: 0; margin-top: -1px;">Apps & Infra</span>
+                <span class="dropdown-item dropdown-toggle" style="top: 0; margin-top: -1px;">Apps & Infra</span>
               </a>
-                <div class="dropdown-menu" style="left: 100%; position: absolute; top: 0; margin-top: -1px;">
+                <div class="dropdown-menu" style="left: 100%; position: absolute; top: 30px; margin-top: -1px;">
                   <a [routerLink]="['/assessment']" class="dropdown-item">Assessment</a>
                   <a [routerLink]="['/design-and-automation']" class="dropdown-item">Design and Automation</a>
                   <a [routerLink]="['/migration-factory']" class="dropdown-item">Migration Factory</a>
                   <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcoming Enhancements</a>
                 </div>
             </li>
-            <li >
-                <a class="dropdown-item" data-toggle="dropdown" role="button" style="padding-left: 0px; padding:0px;">
+            <li class="nav-item dropdown" >
+            
+                <a class="dropdown-item " data-toggle="dropdown" role="button" style="padding-left: 0px; padding:0px;">
                   
-                  <span class="dropdown-item" >Bizapps</span>
+                  <span class="dropdown-item dropdown-toggle" >Bizapps</span>
                 </a>
+                <div class="dropdown-menu" style="left: 100%; position: absolute; top: 45px; margin-top: -1px;">
+                  <a [routerLink]="['/assessment']" class="dropdown-item">Assessment</a>
+                  <a [routerLink]="['/design-and-automation']" class="dropdown-item">Design and Automation</a>
+                  <a [routerLink]="['/migration-factory']" class="dropdown-item">Migration Factory</a>
+                  <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcoming Enhancements</a>
+                </div>
+              
             </li>
           </div>
         </li>

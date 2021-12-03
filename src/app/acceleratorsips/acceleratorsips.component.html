@@ -44,17 +44,21 @@
 <tr>
   <th>Sl.No</th>
   <th>ISU</th>
-  <th>Subscription Name</th>
-  <th>Accelerator Ip</th>
-  <th>Accelerator Ip Desc</th>
+  <th>Type</th>
+  <th>Accelerator IP</th>
+  <th>Accelerator Ip DESC</th>
+  <th>Owner Name</th>
+  <th>Owner EmailID</th>
   <th>Created On</th>
 </tr>
               <tr *ngFor="let user of this.jsonvaluesofexcel.Sheet1"> 
                <td >{{user.Slno}} </td>
                <td>{{user.ISU}}</td>
-               <td>{{user.SubscriptioName}}</td>
+               <td>{{user.Type}}</td>
                  <td>{{user.AcceleratorIp}}</td>
                  <td>{{user.AccelaratorIPdesc}}</td>
+                 <td>{{user.OwnerName}}</td>
+                  <td>{{user.OwnerEmailId}}</td>
                  <td>{{user.Createdon}}</td>
     
              </tr>
