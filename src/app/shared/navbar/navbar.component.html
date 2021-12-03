@@ -68,15 +68,28 @@
             <i class="ni ni-collection d-lg-none"></i>
             <a [routerLink]="['/product']"  class="nav-link-inner--text text-white">Products</a>
           </a>
-          <div class="dropdown-menu">
-            <a [routerLink]="['/assessment']" class="dropdown-item">Assessment- Cloud Counsel</a>
-            <a [routerLink]="['/design-and-automation']" class="dropdown-item">Design and Automation</a>
-            <a [routerLink]="['/migration-factory']" class="dropdown-item">Migration Factory</a>
-            <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcoming Enhancements</a>
-            <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
+          <div class="dropdown-menu" >
+            <li  >
+              <a class="dropdown-item" data-toggle="dropdown" role="button" style="padding-left: 0px; padding:0px">
+                
+                <span class="dropdown-item" style="top: 0; margin-top: -1px;">Apps & Infra</span>
+              </a>
+                <div class="dropdown-menu" style="left: 100%; position: absolute; top: 0; margin-top: -1px;">
+                  <a [routerLink]="['/assessment']" class="dropdown-item">Assessment</a>
+                  <a [routerLink]="['/design-and-automation']" class="dropdown-item">Design and Automation</a>
+                  <a [routerLink]="['/migration-factory']" class="dropdown-item">Migration Factory</a>
+                  <a [routerLink]="['/upcomming-enhancements']" class="dropdown-item">Upcoming Enhancements</a>
+                </div>
+            </li>
+            <li >
+                <a class="dropdown-item" data-toggle="dropdown" role="button" style="padding-left: 0px; padding:0px;">
+                  
+                  <span class="dropdown-item" >Bizapps</span>
+                </a>
+            </li>
           </div>
         </li>
-        <li class="nav-item dropdown">
+        <!--<li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Solutions</span>
@@ -85,9 +98,9 @@
             <a [routerLink]="['/business-centric-solutions']" class="dropdown-item">Business Centric Solutions</a>
             <a [routerLink]="['/sustainability-analysis']" class="dropdown-item">Sustainability Analysis</a>
             <a [routerLink]="['/sap']" class="dropdown-item">Enterprise Solution-SAP</a>
-            <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
+             <a [routerLink]="['/register']" class="dropdown-item">Register</a> 
           </div>
-        </li>
+        </li>-->
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
@@ -136,6 +149,7 @@
             <a [routerLink]="['DoanddontsComponent']" class="dropdown-item">Do's and Donts<span class="badge bg-secondary">New</span></a>
             <a [routerLink]="['ActiveinactivesubscriptionsComponent']" class="dropdown-item">Active/Inactive Subscriptions</a>
             <a [routerLink]="['AcceleratorsipsComponent']" class="dropdown-item">Accelerators/IPs<span class="badge bg-secondary">New</span></a>
+            <a [routerLink]="['/faqs']" class="dropdown-item">FAQ<span class="badge bg-secondary">New</span></a>
             <!-- <a [routerLink]="['/register']" class="dropdown-item">Register</a> -->
           </div>
         </li>
