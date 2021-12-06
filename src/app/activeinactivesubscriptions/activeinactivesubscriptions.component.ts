@@ -18,7 +18,26 @@ export class ActiveinactivesubscriptionsComponent implements OnInit {
   public pieChartType: ChartType = 'pie';
   public pieChartLegend = true;
   public pieChartPlugins = [];
-
+  jsonvaluesofexcel={
+    "Sheet1": [{
+        "Slno": 1,
+        "Name": "Test Subscription 01",
+        "State": "Disabled",
+        
+      },
+      {
+        "Slno": 2,
+        "Name": "Test Subscription 01",
+        "State": "Disabled",
+      },
+      {
+        "Slno": 3,
+        "Name": "Test Subscription 02",
+        "State": "Disabled",
+      },
+     
+    ]
+  }
   constructor() {
     monkeyPatchChartJsTooltip();
     monkeyPatchChartJsLegend();

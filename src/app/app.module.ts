@@ -42,6 +42,7 @@ import { FaqsComponent } from './faqs/faqs.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

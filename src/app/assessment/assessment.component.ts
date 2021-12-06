@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import { IVideoConfig } from "ngx-video-list-player";
 
 @Component({
   selector: 'app-assessment',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./assessment.component.css']
 })
 export class AssessmentComponent implements OnInit {
+
+ 
 
   constructor() { }
 
