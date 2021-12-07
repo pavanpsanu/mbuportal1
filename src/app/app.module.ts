@@ -39,7 +39,7 @@ import { NgxDocViewerModule } from 'ngx-doc-viewer';
 import { ChartsModule } from 'ng2-charts';
 import { FaqsComponent } from './faqs/faqs.component';
 // import { NgbdAccordionPreventchange } from './accordion-preventchange';
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -84,7 +84,8 @@ import { FaqsComponent } from './faqs/faqs.component';
     AppRoutingModule,
     HomeModule,
     NgxDocViewerModule,
-    ChartsModule
+    ChartsModule,
+    HttpClientModule
 
     
   ],

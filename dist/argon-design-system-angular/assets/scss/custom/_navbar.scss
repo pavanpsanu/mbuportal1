@@ -139,12 +139,13 @@
             }
 
             .nav-item.dropdown:hover > .dropdown-menu {
-                display: block;
+                display: grid;
                 opacity: 1;
                 pointer-events: auto;
                 visibility: visible;
                 transform: translate(0, 0);
                 animation: none;
+                
             }
         }
 

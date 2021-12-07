@@ -152,7 +152,31 @@
     }
 
     .shape-fifthcolumn {
-        background: linear-gradient(150deg, #ffd194 15%,#70e1f5  70%, #ffd194 94%);
+        background: linear-gradient(150deg, #001510  15%,#00bf8f  70%, #00bf8f 94%);
+
+         :nth-child(1) {
+            background: shapes-default-color("span-1-bg");
+        }
+
+         :nth-child(2) {
+            background: shapes-default-color("span-2-bg");
+        }
+
+         :nth-child(3) {
+            background: shapes-default-color("span-3-bg");
+        }
+
+         :nth-child(4) {
+            background: shapes-default-color("span-4-bg");
+        }
+
+         :nth-child(5) {
+            background: shapes-default-color("span-5-bg");
+        }
+    }
+
+    .shape-sandbox {
+        background: linear-gradient(150deg,#0cd599   15%,#007991  70%,#007991  94%);
 
          :nth-child(1) {
             background: shapes-default-color("span-1-bg");
@@ -220,6 +244,30 @@
 
          :nth-child(5) {
             background: shapes-dark-color("span-5-bg");
+        }
+    }
+
+    .shape-newsletter {
+        background: linear-gradient(150deg, #e994c7 15%,#45135f 70%, #45135f 94%);
+
+         :nth-child(1) {
+            background: shapes-default-color("span-1-bg");
+        }
+
+         :nth-child(2) {
+            background: shapes-default-color("span-2-bg");
+        }
+
+         :nth-child(3) {
+            background: shapes-default-color("span-3-bg");
+        }
+
+         :nth-child(4) {
+            background: shapes-default-color("span-4-bg");
+        }
+
+         :nth-child(5) {
+            background: shapes-default-color("span-5-bg");
         }
     }
 
